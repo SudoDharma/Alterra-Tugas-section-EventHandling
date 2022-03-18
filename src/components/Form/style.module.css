@@ -1,0 +1,20 @@
+.container{
+    height: 40px;
+    width: 400px;
+    padding: 0.5rem 1rem;
+    border: 1px solid gray;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container input{
+    border: none;
+}
+
+.container button{
+    color: gray;
+    border: none;
+    background-color: white;
+}
