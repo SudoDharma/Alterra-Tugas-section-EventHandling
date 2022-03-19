@@ -1,6 +1,6 @@
 .container{
-    width: 400px;
-    padding: 1rem 0.5rem;
+    width: 500px;
+    padding: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +18,12 @@
 
 .container button{
     height: 50px;
-    padding: 0.2rem;
+    padding: 0.5rem;
     border: none;
     border-radius: 100%;
+}
+
+.container button:hover{
+    background-color: gainsboro;
+    color: gray;
 }
